@@ -1,0 +1,15 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go-Actions/v7.2/settings.schema.json",
+  "type": "PTE",
+  "templateUrl": "https://github.com/microsoft/AL-Go-PTE@main" ,
+  "TrustedNuGetFeeds": [
+    {
+        "Url": "https://pkgs.dev.azure.com/HarmonizeIt/a1328d82-ae41-442d-aa2b-0e0c4bbd109b/_packaging/ISV/nuget/v3/index.json",
+        "AuthTokenSecret": "DEVOPSARTIFACTS"
+    },
+     {
+        "Url": "https://pkgs.dev.azure.com/HarmonizeIt/a1328d82-ae41-442d-aa2b-0e0c4bbd109b/_packaging/ChemDis/nuget/v3/index.json",
+        "AuthTokenSecret": "DEVOPSARTIFACTS"
+    }
+  ]
+}
